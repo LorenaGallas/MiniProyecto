@@ -107,7 +107,7 @@ li {
 }
 
 footer {
-  height: 90vh;
+  height: 120vh;
   margin-top: 10px;
   background-color: #33475b;
 }
@@ -119,6 +119,7 @@ footer {
 
   margin: 100px;
   height: 70vh;
+  margin-bottom: 30px;
 }
 .footer h2 {
   font-size: 0.8rem;
@@ -138,7 +139,7 @@ footer {
   font-weight: bold;
 }
 .footer-div ul li a {
-  color: white;
+  color: #dfd8ca;
 }
 
 .footer-div .Partners {
@@ -153,13 +154,28 @@ footer {
   border-left: 1px solid white;
   height: 425px;
 }
-/* 
-h2::after,
-h2::before {
-  content: "";
-  position: absolute;
-  width: 120px;
-  height: 3px;
-  background-color: black;
-  top: 0.6em;
-} */
+
+.redes {
+  display: flex;
+  height: 12vh;
+  align-items: center;
+  justify-content: center;
+}
+
+.redes ul {
+  display: flex;
+}
+.redes ul li {
+  margin-right: 1px;
+}
+
+.redes ul li a img {
+  width: 30px;
+  height: 30px;
+  margin-right: 10px;
+}
+
+.redes ul li hr {
+  width: 23rem;
+  margin-top: 18px;
+}
