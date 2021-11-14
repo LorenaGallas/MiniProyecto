@@ -116,23 +116,50 @@ footer {
   color: #fff;
   align-items: center;
   justify-content: space-between;
-  background-color: hotpink;
+
   margin: 100px;
   height: 70vh;
 }
 .footer h2 {
-  font-size: inherit;
+  font-size: 0.8rem;
+  margin-bottom: 25px;
 }
 
 .footer-div {
   text-decoration: none;
-  background-color: blue;
-  height: 70vh;
+  height: 60vh;
+  width: 15vw;
+  margin-top: 55px;
 }
+
 .footer-div ul li {
-  margin-top: 10px;
+  margin-top: 20px;
   font-size: 0.8rem;
+  font-weight: bold;
 }
 .footer-div ul li a {
-  color: grey;
+  color: white;
 }
+
+.footer-div .Partners {
+  margin-top: 50px;
+}
+.footer-div .Partners ul {
+  margin-top: 50px;
+}
+
+.linea {
+  margin-top: 50px;
+  border-left: 1px solid white;
+  height: 425px;
+}
+/* 
+h2::after,
+h2::before {
+  content: "";
+  position: absolute;
+  width: 120px;
+  height: 3px;
+  background-color: black;
+  top: 0.6em;
+} */
