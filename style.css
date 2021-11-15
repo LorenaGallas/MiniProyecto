@@ -1,6 +1,6 @@
 * {
-  padding: 0;
-  margin: 0;
+  padding: 0 auto;
+  margin: 0 auto;
   box-sizing: border-box;
 }
 
@@ -36,28 +36,12 @@ body {
   width: 1.5em;
   height: 1.5em;
 }
-.header--uno {
-  font-size: 0.75rem;
-  height: 4em;
-  align-items: center;
-  font-weight: 700;
-  margin-right: 2em;
-}
+
 
 #mundo,
 #macaco {
   height: 18px;
   width: 18px;
-}
-
-.header--uno--der #lupa {
-  width: 1.5em;
-  height: 1.5em;
-}
-
-.header--uno--der #lupa {
-  width: 1.5em;
-  height: 1.5em;
 }
 
 .header--dos {
@@ -130,10 +114,11 @@ li {
 }
 
 /*--------------------------------------*/
-main{
+.arriba{
   display: flex;
-flex-direction: row;
-justify-content: space-between;}
+  flex-direction: row;
+  justify-content: space-between;
+}
 
 h1{
   font-size: 2rem;
@@ -143,6 +128,7 @@ p{
   margin-top: 1em;
   margin-bottom: 1em;
   letter-spacing: 1.3px;
+  line-height: 1.5rem;
 }
 .main--izq{
   margin-top: 3em;
@@ -155,7 +141,7 @@ p{
 }
 
 #main-boton{
-  font-size: 0.875rem;
+  font-size: 0.9rem;
   font-weight: 600;
   height: 4em;
   width: 100%;
@@ -170,6 +156,42 @@ p{
   font-size: 0.8rem;
   font-weight: 400;
   line-height: 1.5rem;
+}
+
+.abajo{
+  margin-top: 4em;
+  background-color: rgb(243, 246, 250);
+}
+
+.abajo #titulo{
+  text-align: center;
+  margin-bottom: 1.9rem;
+}
+
+#main--abajo--p{
+  line-height: 1.5rem;
+  margin-left: 2em;
+}
+
+.main--abajo--botones{
+  width: 80%;
+  display: flex;
+  justify-content: center  
+}
+
+.main--abajo--botones button{
+  font-size: 0.8rem;
+  font-weight: 600;
+  height: 2.5em;
+  width: 40%;
+  padding: 0.45em;
+  border: 1px solid #ff7a59;
+  color: #ff7a59;
+}
+
+#btn--gratis{
+  background-color: #ff7a59;
+  color: #fff;
 }
 /*--------------------------------------------*/
 footer {
