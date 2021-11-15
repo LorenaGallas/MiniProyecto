@@ -25,12 +25,16 @@ body {
 }
 
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> center
 .header--uno {
   font-size: 0.75rem;
   height: 4em;
   align-items: center;
   font-weight: 500;
   margin-right: 2em;
+<<<<<<< HEAD
 }
 
 .header--uno--der #lupa {
@@ -54,6 +58,13 @@ body {
     width:1.5em ;
     height:1.5em ;
 >>>>>>> 72f4ae50b36df770c564ee6e6e754b12aadb8ab8
+=======
+}
+
+.header--uno--der #lupa {
+  width: 1.5em;
+  height: 1.5em;
+>>>>>>> center
 }
 
 .header--dos {
@@ -114,6 +125,7 @@ body {
 a {
   font-weight: 500;
   text-decoration: none;
+<<<<<<< HEAD
 }
 a:hover {
   color: #0091ae;
@@ -126,4 +138,118 @@ li {
 }
 
 .central {
+=======
+}
+a:hover {
+  color: #0091ae;
+  text-decoration: underline;
+}
+
+li {
+  list-style: none;
+  padding-left: 1.5em;
+}
+
+footer {
+  height: 110vh;
+  margin-top: 10px;
+  background-color: #33475b;
+}
+.footer {
+  display: flex;
+  color: #fff;
+  align-items: center;
+  justify-content: space-between;
+
+  margin: 100px;
+  height: 70vh;
+  margin-bottom: 30px;
+}
+.footer h2 {
+  font-size: 0.8rem;
+  margin-bottom: 25px;
+}
+
+.footer-div {
+  text-decoration: none;
+  height: 60vh;
+  width: 15vw;
+  margin-top: 55px;
+}
+
+.footer-div ul li {
+  margin-top: 20px;
+  font-size: 0.8rem;
+  font-weight: bold;
+}
+.footer-div ul li a {
+  color: #dfd8ca;
+}
+
+.footer-div .Partners {
+  margin-top: 50px;
+}
+.footer-div .Partners ul {
+  margin-top: 50px;
+}
+
+.linea {
+  margin-top: 50px;
+  border-left: 1px solid white;
+  height: 425px;
+}
+
+.redes {
+  display: flex;
+  height: 12vh;
+  align-items: center;
+  justify-content: center;
+}
+
+.redes ul {
+  display: flex;
+}
+.redes ul li {
+  margin-right: 1px;
+}
+
+.redes ul li a img {
+  width: 30px;
+  height: 30px;
+  margin-right: 10px;
+}
+
+.redes ul li hr {
+  width: 23rem;
+  margin-top: 18px;
+}
+
+.final-footer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-top: 5px;
+}
+.final-footer img {
+  width: 90px;
+  height: 40px;
+}
+
+.final-footer p {
+  color: #dfd8ca;
+  font-size: 0.7rem;
+  font-weight: bold;
+}
+
+.linea_final {
+  border-left: 1px solid white;
+  height: 10px;
+  margin: 1px;
+}
+.final-footer_finaly {
+  display: flex;
+  justify-content: space-between;
+  margin: 10px;
+>>>>>>> center
 }
