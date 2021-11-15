@@ -24,6 +24,7 @@ body {
   justify-content: space-between;
 }
 
+<<<<<<< HEAD
 .header--uno {
   font-size: 0.75rem;
   height: 4em;
@@ -35,6 +36,24 @@ body {
 .header--uno--der #lupa {
   width: 1.5em;
   height: 1.5em;
+=======
+.header--uno{
+    font-size: .75rem;
+    height: 4em;   
+    align-items: center;
+    font-weight: 700;  
+    margin-right: 2em;  
+}
+
+#mundo, #macaco{
+    height: 18px;
+    width: 18px;
+}
+
+.header--uno--der #lupa{
+    width:1.5em ;
+    height:1.5em ;
+>>>>>>> 72f4ae50b36df770c564ee6e6e754b12aadb8ab8
 }
 
 .header--dos {
