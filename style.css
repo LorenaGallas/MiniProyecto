@@ -107,7 +107,7 @@ li {
 }
 
 footer {
-  height: 120vh;
+  height: 110vh;
   margin-top: 10px;
   background-color: #33475b;
 }
@@ -178,4 +178,33 @@ footer {
 .redes ul li hr {
   width: 23rem;
   margin-top: 18px;
+}
+
+.final-footer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-top: 5px;
+}
+.final-footer img {
+  width: 90px;
+  height: 40px;
+}
+
+.final-footer p {
+  color: #dfd8ca;
+  font-size: 0.7rem;
+  font-weight: bold;
+}
+
+.linea_final {
+  border-left: 1px solid white;
+  height: 10px;
+  margin: 1px;
+}
+.final-footer_finaly {
+  display: flex;
+  justify-content: space-between;
+  margin: 10px;
 }
