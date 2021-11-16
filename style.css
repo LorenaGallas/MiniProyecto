@@ -5,13 +5,33 @@
 }
 
 body {
-  width: 100%;
+  width: 85%;
   color: #33475b;
   font-family: AvenirNext, "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-size: 1.125rem;
   font-weight: 500;
   color: #33475b;
   vertical-align: baseline;
+}
+
+button{
+  background-color: #fff;
+  color: #ff7a59;
+  transition:0.2s;
+  padding: 0.45em;  
+  background-color: #ff7a59;
+  color: #fff;
+  border: 1px solid #ff7a59;
+}
+
+button:active{
+  transform:scale(0.8);
+  border: 1px solid #ece0dc;
+}
+
+button:hover{
+  background-color: #fff;
+  color:#ff7a59;
 }
 
 .header--uno,
@@ -25,18 +45,26 @@ body {
 }
 
 .header--uno {
-  font-size: 0.75rem;
-  height: 4em;
+  font-size: 0.75rem; 
+  height: 15vh;
   align-items: center;
   font-weight: 500;
-  margin-right: 2em;
+  margin-right: -12vh;
+  margin-left: -3vh;
+}
+
+.header--uno--izq {
+  margin-left: initial;
+}
+
+.header--uno--der {
+  margin-right: 100px;
 }
 
 .header--uno--der #lupa {
   width: 1.5em;
   height: 1.5em;
 }
-
 
 #mundo,
 #macaco {
@@ -45,9 +73,10 @@ body {
 }
 
 .header--dos {
-  height: 5em;
-  padding-top: 1em;
+  height: 13vh;
+  /* padding-top: 1em; */
   margin-right: 2em;
+  margin-left: -4vh;
 }
 .header--dos-div {
   display: flex;
@@ -63,13 +92,10 @@ body {
 }
 
 .header--dos--boton {
+  margin-right: initial;
   font-size: 0.875rem;
   font-weight: 600;
-  height: 3em;
-  padding: 0.45em;
-  background-color: #ff7a59;
-  color: #fff;
-  border: 1px solid #ff7a59;
+  height: 3em;  
   border-radius: 0.6em;
 }
 
@@ -79,9 +105,9 @@ body {
   color: #fff;
   font-weight: 400;
   text-align: center;
-  height: 5em;
+  height: 17vh;
   line-height: 1.5;
-  padding-left: 3em;
+  padding-left: 6vh;
 }
 
 #header--tres--parrafo {
@@ -95,8 +121,17 @@ body {
   background-color: #fff;
   color: #33475b;
   border: 1px solid #fff;
-  margin-right: 2em;
+  margin-right: 100px;
   margin-left: 2em;
+}
+.header--tres--boton:active{
+  transform:scale(0.8);
+  border: 1px solid #ece0dc;
+}
+
+.header--tres--boton:hover{
+  background-color: #ff7a59;
+  color:#fff;
 }
 
 a {
@@ -114,6 +149,11 @@ li {
 }
 
 /*--------------------------------------*/
+
+main{
+  margin-left: 100px;
+  margin-right: 100px;
+}
 .arriba{
   display: flex;
   flex-direction: row;
@@ -145,13 +185,10 @@ p{
   font-weight: 600;
   height: 4em;
   width: 100%;
-  padding: 0.45em;
-  background-color: #ff7a59;
-  color: #fff;
-  border: 1px solid #ff7a59;
 }
 
 #main--p--dos{
+  margin-left: initial;
   width: 70%;
   font-size: 0.8rem;
   font-weight: 400;
@@ -183,16 +220,9 @@ p{
   font-size: 0.8rem;
   font-weight: 600;
   height: 2.5em;
-  width: 40%;
-  padding: 0.45em;
-  border: 1px solid #ff7a59;
-  color: #ff7a59;
+  width: 40%; 
 }
 
-#btn--gratis{
-  background-color: #ff7a59;
-  color: #fff;
-}
 /*--------------------------------------------*/
 footer {
   height: 110vh;
